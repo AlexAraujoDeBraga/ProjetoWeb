@@ -1,0 +1,246 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+	body{
+		background-image : url("alimentos.jpg");
+		opacity:0.9;
+	}
+	
+	div#main {
+		padding-top:0.01%;
+		width:80%;
+		margin : auto;
+		background-color :rgb(142,244,155);
+		
+	}
+		
+	div#menu {
+		background-color : rgb(255,255,255);
+		padding-bottom : 4.7%;
+		margin : 1%;
+		padding-top : 4.7%;
+	}
+	
+	ul{
+		list-style : none;
+		font-family: 'Lobster', cursive;
+		font-size:18pt;
+	}
+	
+	li a{
+		display:inline-block;
+		background-color:rgb(182,116,80);
+		padding:1%;
+		color:rgb(255,255,255);
+	}
+	
+	li{
+		display:inline-block;
+		background-color:rgb(182,116,80);
+		padding:1%;
+		color:rgb(255,255,255);
+	}
+	 
+	img.logo {
+		background-color:rgb(255,255,255);
+		position:absolute;
+		left:60%;
+		top:3%;
+		width : 20%;
+		height : 22%;
+	}
+	
+	/*=======================Linhaca=====================*/
+	div#ingre1 {
+		background-color :rgb(228,61,65);
+		padding-bottom:1%;
+	}
+	
+	section#linhaca{
+		position : absolute;
+		margin-left:0.8%;
+		margin-top:2%;
+	}
+	
+	p.linp {
+		font-size:16pt;
+	}
+	
+	section#linhaca hr.hrLinhaca{
+		position:absolute;
+		color:rgb(255,255,255);
+		width:0.5%;
+		background-color:white;
+		margin-left:92%;
+		
+	}
+	
+	article#artLinhaca{
+		float:right;
+	}
+	
+	section#linhaca figcaption{
+		opacity:0;
+		position:absolute;
+		top:0px;
+		background-color: rgba(0, 0, 0, .4);
+		color: white;
+		width: 88%;
+		height: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+		transition : opacity 1.5s;
+	}
+	
+	section#linhaca:hover figcaption{
+			opacity: 1;
+	
+	}
+	
+	article#artLinhaca p{
+		font-family: 'Indie Flower', cursive;
+		margin-left:53%;
+		font-size:20pt;
+		text-align:justify;
+		font-weight:bold;
+		color:rgb(255,255,255);
+		margin-top:2%;
+		margin-right:2%;
+	}
+	
+	aside#asLinhaca p.linp{
+		position:absolute;
+		float:top;
+		margin-right:52%;
+		margin-left:2%;
+		margin-top:27%;
+		font-family;arial;
+		font-size:17pt;
+		text-align:justify;
+		text-decoration:underline;
+		color:rgb(181,230,29);
+		font-weight:bolder;
+	}
+	
+	aside#asLinhaca p.linp2{
+		
+		margin-right:50%;
+		margin-left:2%;
+		font-family;arial;
+		font-size:17pt;
+	}
+	
+	/*==========================Queijo minas========================*/
+	div#ingre2 {
+		background-color :rgb(19,80,240);
+		padding-bottom:13%;
+	}
+	
+	section#linhaca2{
+		position:absolute;
+		margin-left:0.8%;
+		top:156%;
+	}
+	
+	
+	p.linp3 {
+		font-size:16pt;
+	}
+	
+	section#linhaca2 hr.hrLinhaca2{
+		position:absolute;
+		color:rgb(255,255,255);
+		width:0.5%;
+		background-color:white;
+		margin-left:90%;
+		
+	}
+	
+	article#artLinhaca2{
+		float:right;
+	}
+	
+	section#linhaca2 figcaption{
+		opacity:0;
+		position:absolute;
+		top:1.2px;
+		background-color: rgba(0, 0, 0, .4);
+		color: white;
+		width: 88%;
+		height: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+		transition : opacity 1.5s;
+	}
+	
+	section#linhaca2:hover figcaption{
+			opacity: 1;
+	
+	}
+	
+	article#artLinhaca2 p{
+		font-family: 'Indie Flower', cursive;
+		margin-left:53%;
+		font-size:20pt;
+		text-align:justify;
+		font-weight:bold;
+		color:rgb(255,255,255);
+		margin-top:2%;
+		margin-right:2%;
+	}
+	
+	aside#asLinhaca2 p.linp3{
+		position:absolute;
+		float:top;
+		margin-right:52%;
+		margin-left:2%;
+		margin-top:29%;
+		font-family;arial;
+		font-size:17pt;
+		text-align:justify;
+		text-decoration:underline;
+		color:rgb(181,230,29);
+		font-weight:bolder;
+	}
+	
+	aside#asLinhaca2 p.linp4 a{
+		text-align:right;
+		margin-left:70%;
+		color:rgb(224,117,123);
+		font-family;arial;
+		font-size:17pt;
+	}
+	
+	/*========================================================*/
+		
+	p.endereco {
+		font-family : arial;
+		font-size:12pt;
+		text-align : center;
+		font-weight:bold;
+	}
+	
+	p.telefone {
+		font-family : arial;
+		font-size:10pt;
+		text-align : center;
+		font-weight:bold;
+	}
+	
+	p.email	{
+		font-family : arial;
+		font-size:10pt;
+		text-align : center;
+		font-weight:bold;
+	}
+	
+	footer{
+		padding-top:1%;
+		padding-bottom:1%;
+		margin-left:1%;
+		margin-right:1%;
+		background-color:rgb(255,255,255);
+	}
+
+	
+	

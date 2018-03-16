@@ -1,0 +1,158 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+	body{
+		background-image : url("alimentos.jpg");
+		opacity:0.9;
+	}
+	
+	div#main {
+		padding-top:0.01%;
+		width:80%;
+		margin : auto;
+		background-color :rgb(142,244,155);
+	}
+		
+	div#menu {
+		background-color : rgb(255,255,255);
+		padding-bottom : 4.7%;
+		margin : 1%;
+		padding-top : 4.7%;
+	}
+	
+	ul{
+		list-style : none;
+		font-family: 'Lobster', cursive;
+		font-size:18pt;
+	}
+	
+	li a{
+		display:inline-block;
+		background-color:rgb(182,116,80);
+		padding:1%;
+		color:rgb(255,255,255);
+	}
+	
+	li{
+		display:inline-block;
+		background-color:rgb(182,116,80);
+		padding:1%;
+		color:rgb(255,255,255);
+	}
+	 
+	img.logo {
+		background-color:rgb(255,255,255);
+		position:absolute;
+		left:60%;
+		top:3%;
+		width : 20%;
+		height : 22%;
+	}
+		
+	p.endereco {
+		font-family : arial;
+		font-size:12pt;
+		text-align : center;
+		font-weight:bold;
+	}
+	
+	p.telefone {
+		font-family : arial;
+		font-size:10pt;
+		text-align : center;
+		font-weight:bold;
+	}
+	
+	p.email	{
+		font-family : arial;
+		font-size:10pt;
+		text-align : center;
+		font-weight:bold;
+	}
+	
+	footer{
+		padding-top:1%;
+		padding-bottom:1%;
+		margin-left:1%;
+		margin-right:1%;
+		background-color:rgb(255,255,255);
+	}
+	/*====================Formulario========================*/
+	form{
+		width:55%;
+		margin:auto;
+	}
+	
+	fieldset{
+		padding-bottom:10%;
+		border-color:rgb(255,255,255);
+		margin:5%;
+		border-width:15px;
+		border-style:dotted;
+	}
+	
+	
+	
+	legend{
+		color:rgb(37,45,139);
+		font-family: 'Lobster', cursive;
+		font-size:20pt;
+		font-weight:bold;
+	}
+	/*============================input=======================================*/
+	input#cNome{
+		margin-left:15%;
+		font-family:arial;
+		font-size:12pt;
+	}
+	
+	input#cQuant{
+		margin-left:5.5%;
+		font-family:arial;
+		font-size:12pt;
+	}
+	
+	input#cPreco{
+		margin-left:9.5%;
+		font-family:arial;
+		font-size:12.1pt;
+	}
+	
+	input#cCodigo{
+		margin-left:12.5%;
+		font-family:arial;
+		font-size:12pt;
+	}
+	
+	input#imagem{
+		font-family:arial;
+		font-size:12pt;
+	}
+	
+	p.pCad {
+		font-family:arial;
+		font-size:15pt;
+		font-weight:bold;
+		font-family: 'Lobster', cursive;
+		color:rgb(37,45,139);
+	}
+	/*=======================Formulario ingredientes=======================*/
+	fieldset#cadIngredientes {
+		width:100%;
+		background:url("cooking.png") no-repeat 95% 50%;
+		background-color:rgb(182,116,80);
+	}
+	/*=====================Formulario Alimentos=====================*/
+	fieldset#cadAlimentos {
+		width:100%;
+		background:url("alimentos.png") no-repeat 95% 20%;
+		background-color:rgb(182,116,80);
+	}
+	/*=====================Fomrulario para envio imagem================*/
+	fieldset#cadImagem{
+		width:100%;
+		font-family:arial;
+		font-size:12pt;
+		background-color:rgb(182,116,80);
+	}
+	
+	

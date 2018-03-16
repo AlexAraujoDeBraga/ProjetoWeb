@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Projeto</title>
+	<link rel="stylesheet" type="text/css" href="projeto.css"/>
+</head>
+<body>
+	<div id="main">
+		
+		<div id="menu">
+			<img class="logo" src="saude.jpg">
+			<nav>
+				<ul>
+					<li><a href="principal.html">Principal</a></li>
+					<li><a href="projeto.html">Admim</a></li>
+					<li><a href="alimentos.html">Alimentos</a></li>
+					<li><a href="ingredientes.html">Ingredientes</a></li>
+				</ul>
+			</nav>
+		</div>
+	<form>
+	<fieldset id="cadIngredientes">
+		<legend>Cadastrar Ingrediente</legend>
+		<p class="pCad"><label for="cNome">Nome</label>:<input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder="Digite nome do ingrediente"/></p>
+		<p class="pCad"><label for="cQuant">Quantidade</label>:<input type="number" name="tQuant" id="cQuant" min="0" max="999" value="0"/></p>
+		<input type="submit" value="Cadastrar"/>
+	</fieldset>
+	<fieldset id="cadAlimentos">
+		<legend>Cadastro Alimentos</legend>
+		<p class="pCad"><label for="cNome">Nome</label>:<input type="text" name="atNome" id="cNome" size="30" maxlength="30" placeholder="Digite o nome do alimento"/></p>
+		<p class="pCad"><label for="cPreco">Preço R$</label>:<input type="text" name="aPreco" id="cPreco" size="10" value="0.0"/></p>
+		<p class="pCad"><label for="cCodigo">Código</label>:<input type="text" name id="cCodigo" size="10" /></p>
+		<input type="submit" value="Cadastrar"/>
+	</fieldset>
+	<fieldset id="cadImagem">
+		<legend>Enviar imagem do alimento</legend>
+			<p class="pCad"><label for="cImagem">Selecione a imagem</label>:<input type="file" name="imagem" id="imagem"/><input type="submit" value="Enviar"/></p>
+		</fieldset>	
+	</form>
+	<footer>
+		<p class="endereco">Av. Presidente Roosevelt, 30 L1 | Barro Duro | Maceió-AL - 58476-988</p>
+		<hr/>
+		<p class="telefone">(82) 3345.9123 | (82) 99823.7132</p>
+		<p class="email">ec@eatingcommerce.com</p>
+	</footer>
+	</div>
+</body>
+</html>

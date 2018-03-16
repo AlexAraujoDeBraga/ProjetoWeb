@@ -1,0 +1,197 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster'); 
+	body{
+		background-image : url("fundo.png");
+		opacity:0.9;
+	}
+	
+	div#main {
+		padding-top:0.01%;
+		width:80%;
+		margin : auto;
+		background-color :rgb(255,255,255);
+		
+	}
+	
+	/*div#login {
+		padding-top:0.01%;
+		width:420px;
+		position:relative;
+		margin:auto;
+		right:460px;
+		
+	}*/
+
+	a.login {
+		font-size: 12pt;
+		text-decoration: none;
+		color:white;
+		font-family: arial;
+	}
+
+	a.cadastrar {
+		font-size: 12pt;
+		text-decoration: none;
+		color:white;
+		font-family: arial;
+	}
+
+
+	
+
+	div#social {
+		padding: 0.7%;
+		background-color :rgb(70,0,19);
+	}
+	
+		
+	div#menu {
+		background-color : rgb(255,255,255);
+		padding-bottom : 4.7%;
+		margin : 1%;
+		padding-top : 4.7%;
+	}
+	
+	ul{
+		list-style : none;
+		font-family: 'Abril Fatface', cursive;
+		font-size:14pt;
+		font-weight: bold;
+	}
+	
+	li a{
+		display:inline-block;
+		background-color:rgb(152,152,152);
+		padding:0.8%;
+		color:rgb(255,255,255);
+		text-decoration: none;
+	}
+	
+	li{
+		display:inline-block;
+		background-color:rgb(152,152,152);
+		padding:0.8%;
+		color:rgb(255,255,255);
+		transition : background-color 1s;
+		
+	}
+
+	
+
+	ul li:hover{
+		background-color : rgb(82, 82, 82);
+		padding: 1.2%;
+		border: solid 2px;
+		border-bottom-color:rgb(150,0,59);
+	}
+
+	 li a:hover{
+		background-color : rgb(82, 82, 82);
+		padding: 1.2%;
+	}
+	 
+	img.logo {
+		background-color:rgb(255,255,255);
+		position:absolute;
+		left:680px;
+		top:95px;
+		width : 240px;
+		height :160px;
+	}
+
+/*	article.artigo {
+		padding: 2%;
+		font-family: 'Lobster', cursive;
+		color: white;
+		border:solid 1px;
+		border-radius: 200px;
+		font-size: 20pt;
+		position: absolute;
+		margin: auto;
+		right:260px;
+		top:435px;
+		background-color :rgb(70,0,19);
+	}*/
+
+	article.artigo {
+		width: 90%;
+		height: 46%;
+		
+		margin:auto;
+		overflow: hidden;
+	}
+
+	.artigo ul{
+		display: flex;
+		padding:0;
+		width: 400%;
+		height: 100%;
+		
+
+		animation: cambio 20s infinite alternate;
+		animation-timing-function: ease-in;
+	}
+
+	.artigo li{
+		width: 100%;
+		list-style: none;
+		
+	}
+
+	.artigo img{
+		width: 100%;
+		height: 80%;
+		padding-top:2%;
+	}
+
+	@keyframes cambio {
+		0% {margin-left:0;}
+		25%{margin-left:0;}
+
+		35% {margin-left:-100%;}
+		55%{margin-left:-100%;}
+
+		60% {margin-left:-200%;}
+		80%{margin-left:-200%;}
+
+		85% {margin-left:-300%;}
+		100%{margin-left:-300%;}
+
+	}
+		
+	p.endereco {
+		font-family: arial;
+		font-size:12pt;
+		text-align : center;
+		font-weight:bold;
+		color:white;
+	}
+	
+	p.telefone {
+		font-family : arial;
+		font-size:12pt;
+		text-align : center;
+		font-weight:bold;
+		color:white;
+	}
+	
+	p.email	{
+		font-family : arial;
+		font-size:12pt;
+		text-align : center;
+		font-weight:bold;
+		color:white;
+	}
+	
+	footer{
+		background-color :rgb(70,0,19);
+		padding-top:1%;
+		padding-bottom:1%;
+		margin-left:1%;
+		margin-right:1%;
+	
+	}
+
+
+	
+	

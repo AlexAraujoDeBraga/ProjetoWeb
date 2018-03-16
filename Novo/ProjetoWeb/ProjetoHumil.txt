@@ -1,0 +1,13 @@
+Principal
+
+	nav, footer
+	links
+	form ingredientes - nome e quanti
+	form alimentos nome, preço, codigo
+	form imagem alimento
+
+Site Png - http://www.flaticon.com/
+
+Site Css - http://hugoribeiro.com.br/Curso_HTML/css/c07.htm
+
+	

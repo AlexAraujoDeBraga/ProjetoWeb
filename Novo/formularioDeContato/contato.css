@@ -1,0 +1,133 @@
+body{
+		background-image : url("fundo.png");
+		opacity:0.9;
+	}
+	
+	div#principal {
+		width:80%;
+		margin : auto;
+		background-color :rgb(255,255,255);
+		
+	}
+
+    div#container {
+		padding-top: 2%;
+        width: 99%;
+        padding-left: 1%;
+        padding-bottom: 0.5%;
+		background-color :rgb(70,0,19);
+     
+	}
+
+    
+    section.imagens{
+       top:100%;
+       padding:2.5%;
+      
+    }
+
+    section.formulario {
+		padding:2%;
+        top:12.7%;
+        position: absolute;
+        left:25%;
+        font-family: arial;
+        font-size: 15pt;
+        color: rgb(80,80,80);
+        font-weight: bolder;
+        border-radius: 50%;
+        
+    }
+
+    input.opcao{
+        font-family: arial;
+        font-size: 18pt;
+        border-radius: 20%;
+        border:2px solid;
+    }
+
+     textarea.opcaomensagem{
+        font-family: arial;
+
+        font-size: 18pt;
+        border-radius: 20%;
+        border:2px solid;
+    }
+
+    textarea.opcaomensagem:hover {
+        transition : background-color 1s;
+        background-color: rgb(200,200,200);
+        color:rgb(42,42,42);
+        font-family: arial;
+        font-size: 18pt;
+        border-radius: 20%;
+        border:2px solid;
+    }
+
+    input.opcao:hover {
+        transition : background-color 1s;
+        background-color: rgb(200,200,200);
+        color:rgb(42,42,42);
+        font-family: arial;
+        font-size: 18pt;
+        border-radius: 20%;
+        border:2px solid;
+    }
+
+    input.botao {
+        font-family: arial;
+        font-size: 18pt;
+        border-radius: 20%;
+        border:2px solid;
+    }
+
+      input.botao:hover {
+         transition : background-color 2s;
+        background-color: rgb(80,80,80);
+        font-family: arial;
+        font-size: 18pt;
+        border-radius: 20%;
+        border:2px solid;
+    }  
+
+    fieldset#mes {
+        width: 200%;
+        color:rgb(70,0,19);
+     	background-color :rgb(220,220,220);
+        
+    }
+
+    p.endereco {
+		font-family: arial;
+		font-size:12pt;
+		text-align : center;
+		font-weight:bold;
+		color:white;
+	}
+	
+	p.telefone {
+		font-family : arial;
+		font-size:12pt;
+		text-align : center;
+		font-weight:bold;
+		color:white;
+        
+	}
+	
+	p.email	{
+		font-family : arial;
+		font-size:12pt;
+		text-align : center;
+		font-weight:bold;
+		color:white;
+	}
+	
+	footer{
+		background-color :rgb(70,0,19);
+		padding-top:1%;
+		padding-bottom:1%;
+		margin-left:1%;
+		margin-right:1%;
+        
+	
+	}
